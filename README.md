@@ -1,4 +1,4 @@
-# EXP-02-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON
+# EXP-01-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON
 
 AIM:  To interface a digital input (push button) and blink and LED upon activation.
 COMPONENTS REQUIRED:
@@ -101,7 +101,11 @@ void loop()
 Output of the simulation :
 
 [My image](username.github.com/repository/img/image.jpg)
+##Before Simulation:
 ![robo ex 1](https://user-images.githubusercontent.com/119518996/233991335-7fa32205-d470-4009-b87f-2e0dd721356e.png)
+##After Simulation
 ![robo ex2](https://user-images.githubusercontent.com/119518996/233991379-535eb6ac-4264-43db-8450-08ebc1784235.png)
+##RESULT:
+Arduino uno analog input function is learned and interfaced with digital input switch executed successfully
 
 
