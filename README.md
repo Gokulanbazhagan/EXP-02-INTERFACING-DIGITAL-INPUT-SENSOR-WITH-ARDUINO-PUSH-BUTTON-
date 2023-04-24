@@ -66,7 +66,30 @@ FIGURE -03
 
 
 
-PROGRAM 
+## PROGRAM:
+```
+int buttonstate = 0;
+
+void setup()
+{
+  pinMode(2, INPUT);
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  buttonstate = digitalRead(2);
+  if(buttonstate == HIGH)
+  {
+    digitalWrite(13, HIGH);
+  }
+  else
+  {
+    digitalWrite(13, LOW);
+  }
+  delay(15);
+}
+```
  
  
  
@@ -78,4 +101,7 @@ PROGRAM
 Output of the simulation :
 
 [My image](username.github.com/repository/img/image.jpg)
+![robo ex 1](https://user-images.githubusercontent.com/119518996/233991335-7fa32205-d470-4009-b87f-2e0dd721356e.png)
+![robo ex2](https://user-images.githubusercontent.com/119518996/233991379-535eb6ac-4264-43db-8450-08ebc1784235.png)
+
 
